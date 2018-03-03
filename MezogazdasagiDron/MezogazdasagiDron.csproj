@@ -176,13 +176,14 @@
     <Content Include="Images\alex-holt-305454-1.jpg" />
     <Content Include="Images\backre5-1024x687.png" />
     <Content Include="Images\contact-page-background.jpg" />
+    <Content Include="Images\szolgaltatasok-3.png" />
     <Content Include="Images\idan-arad-384872-1.jpg" />
-    <Content Include="Images\káuntintoszam.png" />
+    <Content Include="Images\szolgaltatasok-2.png" />
     <Content Include="Images\PreciziosvadkarfelmeresBG.jpg" />
     <Content Include="Images\seeds -contactpagebg.jpg" />
     <Content Include="Images\Szolgaltatasok_bg.jpg" />
     <Content Include="Images\uj-final.png" />
-    <Content Include="Images\watkár.png" />
+    <Content Include="Images\szolgaltatasok-1.png" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\agency.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
