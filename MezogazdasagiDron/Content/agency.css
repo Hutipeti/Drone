@@ -177,15 +177,17 @@ img::-moz-selection {
 
 .szolgaltatasok_bg {
     background-image: url('../Images/Szolgaltatasok_bg.jpg');
-    background-size:inherit;
-    background-repeat:no-repeat;
-    min-height:1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .contactpage_bg {
     background-image: url('../Images/contact-page-background.jpg');
     background-repeat:no-repeat;
-    background-size:inherit;
-    /*min-height:1200px;*/
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom: 15%;
+    padding-top: 15%;
 }
 
 header.masthead {
