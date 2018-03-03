@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace MezogazdasagiDron.Controllers
 {
@@ -39,6 +33,16 @@ namespace MezogazdasagiDron.Controllers
             //uint minutesDenominator = BitConverter.ToUInt32(propItem.Value, 12);
             //uint secondsNumerator = BitConverter.ToUInt32(propItem.Value, 16);
             //uint secondsDenominator = BitConverter.ToUInt32(propItem.Value, 20);
+        }
+
+        public ActionResult Uploader()
+        {
+            if (!Request.IsAuthenticated)
+            {
+                return RedirectToAction("SignUpSignIn", "Account");
+            }
+
+            return View();
         }
     }
 }
