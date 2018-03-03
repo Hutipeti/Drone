@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MezogazdasagiDron", "MezogazdasagiDron\MezogazdasagiDron.csproj", "{192B3823-3A36-4E9E-9CF6-3D6EA8FEC5A7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskService", "TaskService\TaskService.csproj", "{FEBD0A38-D884-403D-89C5-1FEFE80BB550}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +15,11 @@ Global
 		{192B3823-3A36-4E9E-9CF6-3D6EA8FEC5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192B3823-3A36-4E9E-9CF6-3D6EA8FEC5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192B3823-3A36-4E9E-9CF6-3D6EA8FEC5A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {129551C5-F015-41C1-AC63-306D127044E9}
 	EndGlobalSection
 EndGlobal
