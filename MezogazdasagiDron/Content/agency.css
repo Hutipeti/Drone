@@ -181,6 +181,12 @@ img::-moz-selection {
     background-repeat:no-repeat;
     min-height:1200px;
 }
+.contactpage_bg {
+    background-image: url('../Images/contact-page-background.jpg');
+    background-repeat:no-repeat;
+    background-size:inherit;
+    /*min-height:1200px;*/
+}
 
 header.masthead {
     text-align: center;

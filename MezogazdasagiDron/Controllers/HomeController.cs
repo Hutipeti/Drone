@@ -30,7 +30,6 @@ namespace MezogazdasagiDron.Controllers
         {
             ViewBag.Message = "Your contact page.";
             return View();
-
             //Image image = Image.FromFile(@"C:\Projects\MezogazdasagiDron\MezogazdasagiDron\Images\Aktualitasok_01.jpg");
             //PropertyItem propItem = image.GetPropertyItem(2);
             //uint degreesNumerator = BitConverter.ToUInt32(propItem.Value, 0);
@@ -39,6 +38,10 @@ namespace MezogazdasagiDron.Controllers
             //uint minutesDenominator = BitConverter.ToUInt32(propItem.Value, 12);
             //uint secondsNumerator = BitConverter.ToUInt32(propItem.Value, 16);
             //uint secondsDenominator = BitConverter.ToUInt32(propItem.Value, 20);
+        }
+        public ActionResult PreciziosKarFelmeres()
+        {
+            return View();
         }
     }
 }

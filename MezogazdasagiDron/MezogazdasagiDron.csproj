@@ -158,14 +158,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\agronfinaloldalra.png" />
     <Content Include="Images\Aktualitasok_01.jpg" />
     <Content Include="Images\Aktualitasok_02.png" />
     <Content Include="Images\Aktualitasok_03.png" />
     <Content Include="Images\alex-holt-305454-1.jpg" />
+    <Content Include="Images\backre5-1024x687.png" />
     <Content Include="Images\contact-page-background.jpg" />
     <Content Include="Images\idan-arad-384872-1.jpg" />
+    <Content Include="Images\káuntintoszam.png" />
+    <Content Include="Images\PreciziosvadkarfelmeresBG.jpg" />
     <Content Include="Images\seeds -contactpagebg.jpg" />
     <Content Include="Images\Szolgaltatasok_bg.jpg" />
+    <Content Include="Images\uj-final.png" />
+    <Content Include="Images\watkár.png" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\agency.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -211,6 +217,7 @@
     <Content Include="Views\Aktualitas\Aktualitasok.cshtml" />
     <Content Include="Views\Aktualitas\Aktualitas.cshtml" />
     <Content Include="Views\Home\Aktualitasok.cshtml" />
+    <Content Include="Views\Home\PreciziosKarFelmeres.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
