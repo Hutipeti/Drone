@@ -1,0 +1,38 @@
+﻿@model MezogazdasagiDron.Models.FarmEntity
+
+<header class="masthead">
+    <div class="container" style="height: 120px">
+    </div>
+</header>
+<section id="farm-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="upload-photo">
+    <div class="container" id="upload-photo">
+        @using (Html.BeginForm("Upload", "Image", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="photo" type="file" required="" data-validation-required-message="Kérem, válassza ki a feltöltendő képet!">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="success"></div>
+                        <button id="upload-photo" class="btn btn-primary btn-xl text-uppercase" type="submit">Kép feltöltése</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>

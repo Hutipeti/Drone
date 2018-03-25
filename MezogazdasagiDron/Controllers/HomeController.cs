@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using MezogazdasagiDron.Services;
+using System;
+using System.Web.Mvc;
 
 namespace MezogazdasagiDron.Controllers
 {
@@ -44,6 +46,11 @@ namespace MezogazdasagiDron.Controllers
             {
                 return RedirectToAction("SignUpSignIn", "Account");
             }
+
+            var farmId = Guid.NewGuid();
+            var userId = this.User.Identity.Name;
+
+            //BlobStorageService.Upload(userId, farmId);
 
             return View();
         }

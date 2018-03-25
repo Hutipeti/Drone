@@ -1,0 +1,31 @@
+﻿<!-- Header -->
+<header class="masthead">
+    <div class="container" style="height: 120px">
+    </div>
+</header>
+<section id="create-farm">
+    <div class="container" id="create-farm">
+        <div class="row">
+            <div class="col-lg-12">
+                @using (Html.BeginForm("Create", "Farm", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.TextBox("farmName", string.Empty, new { @class = "form-control", id = "farmName", @type = "text", placeholder = "Farm neve *", required = "", data_validation_required_message = "Kérem, adja meg a farm nevét!" })
+                                @*<input class="form-control" id="farmName" type="text" placeholder="Farm neve *" required="" data-validation-required-message="Kérem, adja meg a farm nevét!">*@
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="success"></div>
+                                <button id="create-farm" class="btn btn-primary btn-xl text-uppercase" type="submit">Farm létrehozása</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

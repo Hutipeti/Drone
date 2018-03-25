@@ -190,6 +190,10 @@ img::-moz-selection {
     padding-top: 15%;
 }
 
+.builder_row_cover {
+    background: rgba(0,0,0, 0.39);
+}
+
 header.masthead {
     text-align: center;
     color: white;
@@ -217,10 +221,11 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 110px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 110px;
   margin-bottom: 25px;
+  text-transform: uppercase;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -632,39 +637,39 @@ section#contact {
   background-position: center;
 }
 
-section#contact .section-heading {
+section .section-heading {
   color: #fff;
 }
 
-section#contact .form-group {
+section .form-group {
   margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section .form-group input,
+section .form-group textarea {
   padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section .form-group input.form-control {
   height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section .form-group textarea.form-control {
   height: 248px;
 }
 
-section#contact .form-control:focus {
+section .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
 
-section#contact ::-webkit-input-placeholder {
+section ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section#contact :-moz-placeholder {
+section :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
@@ -678,7 +683,7 @@ section#contact ::-moz-placeholder {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section#contact :-ms-input-placeholder {
+section :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
